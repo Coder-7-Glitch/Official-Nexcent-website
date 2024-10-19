@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+    background: #F5F7FA;
+}
+
+.nav-btn-s {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #4CAF4F;
+    color: #fff;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    border-radius: 6px;
+    color: #4CAF4F;
+}
+
+/* Hero */
+.hero-Section {
+    background: #F5F7FA;
+}
+
+.hero-heading {
+    font-size: 64px;
+    color: #4D4D4D;
+}
+
+.second-Text {
+    color: #4CAF4F;
+    font-size: 64px;
+}
+
+.hero-Section-p {
+    font-size: 16px;
+}
+
+.hero-Btn {
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #fff;
+}
+
+@keyframes slides {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logo_items {
+    display: inline-block;
+    animation: 30s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+    animation-play-state: paused;
+}
+
+.logo_items img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Client */
+.client-Head {
+    color: #4D4D4D;
+}
+
+/* Community */
+.community-Heading {
+    color: #4D4D4D;
+    font-size: 36px;
+}
+
+.community-Card {
+    background: #fff;
+    box-shadow: 1px 1px 4px #808080;
+    border-radius: 8px;
+}
+
+.community-P {
+    font-size: 16px;
+}
+
+.community-Head {
+    font-size: 28px;
+    color: #4D4D4D;
+}
+
+/* Pixelgrade */
+.pixelgrade-Heading {
+    color: #4D4D4D;
+}
+
+.pixelgrade-btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: none;
+    background: #4caf4f;
+    color: #fff;
+}
+
+/* Buisness */
+.buisness-Section {
+    background: #f5f7fa;
+}
+
+.buisness-Heading {
+    color: #4D4D4D;
+}
+
+.buisness-Heading-s {
+    color: #4CAF4F;
+}
+
+/* Footer Design */
+.footer-Design-heading {
+    color: #4D4D4D;
+}
+
+.footer-Design-btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: none;
+    background: #4caf4f;
+    color: #fff;
+}
+
+/* Tesla */
+.tesla-Section {
+    background: #f5f7fa;
+}
+
+.tesla-P {
+    color: #4caf4f;
+    font-size: 20px;
+}
+
+.tesla-Btn {
+    padding: 8px;
+    color: #4CAF4F;
+    background: none;
+    border: none;
+}
+
+/* Caring */
+.caring-Content {
+    background: #f5f7fa;
+    color: #4D4D4D;
+    border-radius: 8px;
+    border: 1px solid #F5F7FA;
+    position: absolute;
+    margin: -150px;
+    z-index: 100;
+    width: 90%;
+    left: 170px;
+}
+
+.caring-Card {
+    margin-bottom: 10rem;
+}
+
+.caring-btn {
+    color: #4CAF4F;
+    font-size: 20px;
+}
+
+/* Pellentesque */
+.Pellentesque-Section {
+    background: #F5F7FA;
+}
+
+.Pellentesque-heading h1 {
+    font-size: 64px;
+}
+
+.pellentesque-Btn {
+    background: #4CAF4F;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Footer */
+.footer-Section {
+    background: #263238;
+}
+
+.footer-Text {
+    background: #4d4d4d;
+    padding-left: 4px;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+.email-img {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

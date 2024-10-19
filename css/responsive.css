@@ -1,0 +1,87 @@
+@media(max-width: 500px) {
+    .hero-heading {
+        font-size: 58px !important;
+        color: #4D4D4D;
+    }
+
+    .second-Text {
+        font-size: 58px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .hero-heading {
+        font-size: 45px !important;
+        color: #4D4D4D;
+    }
+
+    .second-Text {
+        font-size: 45px !important;
+    }
+
+    .pixelgrade-Heading {
+        font-size: 21px;
+    }
+
+    .buisness-Heading {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 370px) {
+    .hero-heading {
+        font-size: 35px !important;
+        color: #4D4D4D;
+    }
+
+    .second-Text {
+        font-size: 35px !important;
+    }
+
+    .pixelgrade-Heading {
+        font-size: 17px;
+    }
+
+    .buisness-Heading {
+        font-size: 17px !important;
+    }
+
+    .buisness-Heading-s {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 750px) {
+    .Pellentesque-heading h1 {
+        font-size: 55px;
+    }
+}
+
+@media(max-width: 650px) {
+    .Pellentesque-heading h1 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 440px) {
+    .Pellentesque-heading h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 400px) {
+    .Pellentesque-heading h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 330px) {
+    .Pellentesque-heading h1 {
+        font-size: 23px;
+    }
+}
+@media(max-width: 991px) {
+    .footer-Section .col-lg-2 {
+        margin-top: 1.5rem;
+    }
+}
